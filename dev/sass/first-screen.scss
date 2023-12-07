@@ -1,0 +1,52 @@
+.services {
+	margin-top: 99px;
+	.container {
+		.services-title {
+			text-align: center;
+		}
+		.services-cards {
+			position: relative;
+			width: 100%;
+			margin: 0 auto;
+			.services-cardbox {
+				position: relative;
+				background: linear-gradient(
+					0deg,
+					rgba(4, 5, 17, 0.91) 0%,
+					rgba(88, 88, 88, 0) 100%
+				);
+				background-repeat: no-repeat;
+				border-radius: 20px;
+				img {
+					height: 100%;
+					position: absolute;
+					top: 0;
+					left: 0;
+					right: 0;
+					object-fit: cover;
+					object-position: center;
+					z-index: -1;
+					border-radius: 20px;
+				}
+
+				.cardbox-title {
+					margin-bottom: 13px;
+					text-align: left;
+					font-size: 22px;
+					font-weight: 700;
+					line-height: 124.5%;
+				}
+				.cardbox-info {
+					margin-bottom: 14px;
+					max-width: 310px;
+					font-size: 15px;
+					line-height: 124.5%;
+				}
+			}
+		}
+	}
+	.slick-track {
+		display: flex;
+		justify-content: space-between;
+	}
+}

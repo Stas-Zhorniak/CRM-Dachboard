@@ -1,6 +1,7 @@
 body {
 	background: #fafbff;
 	font-family: "Poppins";
+	box-sizing: border-box;
 }
 
 .first-screen {
@@ -9,7 +10,6 @@ body {
 	height: 100vh;
 
 	.header-first-screen {
-		box-sizing: border-box !important;
 		background: #fff;
 		padding-top: 36px;
 		padding-left: 28px;

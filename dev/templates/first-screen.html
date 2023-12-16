@@ -1,26 +1,95 @@
 <section class="first-screen">
-	<aside class="header-first-screen">
+	<aside class="header-first-screen tabs">
 		<div class="logo"><img src="assets/img/logo.png" /><span>v.01</span></div>
-		<div class="list-first-screen">
-			<div class="dashboard-list">Dashboard</div>
-			<div class="products-list">Product</div>
-			<div class="customers-list">Customers</div>
-			<div class="income-list">Income</div>
-			<div class="promote-list">Promote</div>
-			<div class="help-list">Help</div>
+		<div class="list-first-screen navbar-tabs">
+			<div class="dashboard-list tab-btn">
+				<span class="logo-list"
+					><img src="assets/img/logo-list-1.svg" alt="" /></span
+				>Dashboard
+			</div>
+			<div class="products-list tab-btn">
+				<span class="logo-list"
+					><img src="assets/img/logo-list-2.svg" alt="" /></span
+				>Product
+			</div>
+			<div class="customers-list tab-btn">
+				<span class="logo-list"
+					><img src="assets/img/logo-list-3.svg" alt="" /></span
+				>Customers
+			</div>
+			<div class="income-list tab-btn">
+				<span class="logo-list"
+					><img src="assets/img/logo-list-4.svg" alt="" /></span
+				>Income
+			</div>
+			<div class="promote-list tab-btn">
+				<span class="logo-list"
+					><img src="assets/img/logo-list-5.svg" alt="" /></span
+				>Promote
+			</div>
+			<div class="help-list tab-btn">
+				<span class="logo-list"
+					><img src="assets/img/logo-list-6.svg" alt="" /></span
+				>Help
+			</div>
 		</div>
-		<div class="user-first-screen">
-			<span class="user-nickname">Evano</span>
-			<span class="user-post">Project Manager</span>
+
+		<div class="user-data">
+			<div class="user-avatar"><img src="assets/img/avatar-img-1.png" /></div>
+			<div class="user-info">
+				<h3 class="user-nickname">Evano</h3>
+				<span class="user-post">Project Manager</span>
+			</div>
 		</div>
 	</aside>
 
-	<div class="info-first-screen">
-		<div class="dashboard-info"></div>
-		<div class="products-info"></div>
-		<div class="customers-info"></div>
-		<div class="income-info"></div>
-		<div class="promote-info"></div>
-		<div class="help-info"></div>
+	<div class="info-first-screen tabs-box">
+		<h2 class="greating">Hello Evano 👋🏼</h2>
+		<div class="info-content">
+			<div class="dashboard-info tab-content"></div>
+			<div class="products-info tab-content"></div>
+			<div class="customers-info tab-content">
+				<div class="info-title">
+					<h2>All Customers</h2>
+					<div class="info-search">
+						<span>Active Members</span>
+						<span class="box-search"
+							><input type="search" placeholder="Search"
+						/></span>
+					</div>
+				</div>
+				<table>
+					<thead>
+						<tr>
+							<th data-name="">Customer Name</th>
+							<th data-company="">Company</th>
+							<th data-phone="">Phone Number</th>
+							<th data-mail="">Email</th>
+							<th data-country="">Country</th>
+							<th data-status="">Status</th>
+						</tr>
+					</thead>
+					<tbody class="rows-info"></tbody>
+				</table>
+				<div class="info-entries">
+					<div class="entries">Showing data 1 to 8 of 256K entries</div>
+					<div class="pagitation-container">
+						<div class="paginations-btns">
+							<button class="btn">></button>
+							<button class="btn">1</button>
+							<button class="btn">2</button>
+							<button class="btn">3</button>
+							<button class="btn">4</button>
+							...
+							<button class="btn">40</button>
+							<button class="btn">></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="income-info tab-content"></div>
+			<div class="promote-info tab-content"></div>
+			<div class="help-info tab-content"></div>
+		</div>
 	</div>
 </section>
